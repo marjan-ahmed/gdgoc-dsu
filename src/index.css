@@ -15,7 +15,7 @@ All colors MUST be HSL.
     --google-green: 142 69% 58%;
     
     /* Base Colors */
-    --background: 0 0% 100%;
+    --background: 220 50% 98%;
     --foreground: 240 10% 10%;
 
     --card: 0 0% 100%;
@@ -97,6 +97,7 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #f5f7fb;
   }
   
   h1, h2, h3, h4, h5, h6 {
